@@ -1,0 +1,36 @@
+{
+    "name": "covertier/catalogs",
+    "version": "1.0.0",
+    "description": "Covertier Official Catalogs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Covertier\\Sdk\\Catalogs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cortier"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "stan": [
+            "./vendor/bin/phpstan analyse -l 9 --memory-limit=3g"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": false,
+        "allow-plugins": {
+
+        }
+    }
+}
