@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Covertier\Catalog\Enums;
+namespace Covertier\Catalogs\Enums;
 
 enum State: string {
     /* AGUASCALIENTES */
