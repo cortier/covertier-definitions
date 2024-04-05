@@ -101,5 +101,5 @@ enum State: string {
     case ZS = 'ZS';
 
     /* BORN ABROAD */
-    case BA = 'IE';
+    case BA = 'BA';
 }

@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 namespace Covertier\Catalogs\Enums;
+
 enum PersonalIdType: string
 {
     /* INE Credential */
