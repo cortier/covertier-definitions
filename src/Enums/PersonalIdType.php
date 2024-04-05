@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace Covertier\Catalog\Enums;
 enum PersonalIdType: string
 {
-    /* IFE Credential */
-    case CI = 'CI';
+    /* INE Credential */
+    case IC = 'IC ';
 
     /* Drivers License */
     case DL = 'DL';

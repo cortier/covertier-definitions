@@ -5,11 +5,11 @@ namespace Covertier\Catalog\Enums;
 enum ResidenceType: string
 {
     /* Temporary */
-    case Temp = 'Temp';
+    case TE = 'TE';
 
     /* Permanent */
-    case Perm = 'Perm';
+    case PE  = 'PE ';
 
     /* Non-resident */
-    case NonResident = 'NonResident';
+    case NR = 'NR';
 }

@@ -100,6 +100,6 @@ enum State: string {
     /* ZACATECAS */
     case ZS = 'ZS';
 
-    /* NACIDO EN EL EXTRANJERO */
-    case NE = 'NE';
+    /* BORN ABROAD */
+    case BA = 'IE';
 }

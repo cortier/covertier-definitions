@@ -26,6 +26,7 @@
             "./vendor/bin/phpstan analyse -l 9 --memory-limit=3g"
         ]
     },
+
     "config": {
         "optimize-autoloader": true,
         "sort-packages": false,
