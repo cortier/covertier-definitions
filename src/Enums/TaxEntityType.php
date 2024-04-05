@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 namespace Covertier\Definitions\Enums;
-enum TaxEntity: string
+enum TaxEntityType: string
 {
     /* Natural Person */
     case NP = 'NP';
