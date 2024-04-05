@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Covertier\Catalogs\Enums;
+namespace Covertier\Definitions\Enums;
 enum TaxEntity: string
 {
     /* Natural Person */
