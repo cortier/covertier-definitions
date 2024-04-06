@@ -6,7 +6,7 @@ namespace Covertier\Definitions\Enums;
 enum PersonalIdType: string
 {
     /* National Identification Card */
-    case NIC = 'NIC ';
+    case NIC = 'NIC';
 
     /* Drivers License */
     case DL = 'DL';

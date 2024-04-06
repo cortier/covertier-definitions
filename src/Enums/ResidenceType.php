@@ -8,7 +8,7 @@ enum ResidenceType: string
     case TE = 'TE';
 
     /* Permanent */
-    case PE  = 'PE ';
+    case PE  = 'PE';
 
     /* Non-resident */
     case NR = 'NR';
