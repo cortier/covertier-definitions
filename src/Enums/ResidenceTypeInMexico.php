@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 namespace Covertier\Definitions\Enums;
-enum ResidenceType: string
+enum ResidenceTypeInMexico: string
 {
     /* Temporary */
     case TE = 'TE';
