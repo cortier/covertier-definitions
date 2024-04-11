@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Covertier\Definitions\Enums;
 
-enum State: string {
+enum StateMX: string {
     /* AGUASCALIENTES */
     case AS = 'AS';
 
@@ -99,7 +99,4 @@ enum State: string {
 
     /* ZACATECAS */
     case ZS = 'ZS';
-
-    /* BORN ABROAD */
-    case BA = 'BA';
 }
