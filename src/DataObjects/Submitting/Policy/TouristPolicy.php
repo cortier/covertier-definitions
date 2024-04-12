@@ -13,8 +13,7 @@ class TouristPolicy
     public function __construct(
         public InsuranceCompany $insuranceCompanyId,
         public int $packageId,
-        public int $vehicleTrimId,
-        public string $vin,
+        public VehicleUS $vehicle,
         public PolicyHolderUS $policyHolder,
         public bool $isMultiEntry = false,
         public ?Territoriality $territoriality = null,
