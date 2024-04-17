@@ -3,10 +3,9 @@
 namespace Covertier\Definitions\DataObjects\Submitting\Policy;
 
 use Covertier\Definitions\Enums\InsuranceCompany;
-use Covertier\Definitions\Enums\Territoriality;
 use DateTimeImmutable;
 
-class TouristPolicy
+class QuoteTourist
 {
     /**
      * @param array<int>|null $coverages
@@ -18,8 +17,6 @@ class TouristPolicy
         public PolicyHolderUS $policyHolder,
         public DateTimeImmutable $startDate,
         public DateTimeImmutable $endDate,
-        public bool $isMultiEntry = false,
-        public ?Territoriality $territoriality = null,
         public ?array $coverages = null,
     ) {}
 }

@@ -10,7 +10,7 @@ class AddressUS
     public Country $country = Country::US;
 
     public function __construct(
-        public string $address,
+        public string $line1,
         public string $district,
         public string $city,
         public StateUS $state
