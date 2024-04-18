@@ -13,7 +13,7 @@ class PolicyHolderUS
         public string $birthdate,
         public string $identificationNumber,
         public PersonalIdType $personalIdType,
-        public string $phoneNumber,
+        public string $mobileNumber,
         public ResidenceTypeInMexico $residenceType,
         public AddressUS $address
     ) {}
