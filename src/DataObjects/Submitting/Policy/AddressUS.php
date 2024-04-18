@@ -12,6 +12,7 @@ class AddressUS
     public function __construct(
         public string $line1,
         public string $district,
+        public int $zipCode,
         public string $city,
         public StateUS $state
     ) {
