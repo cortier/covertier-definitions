@@ -13,7 +13,7 @@ class TouristPolicy
      */
     public function __construct(
         public InsuranceCompany $insuranceCompanyId,
-        public int $packageId,
+        public Package $package,
         public VehicleUS $vehicle,
         public PolicyHolderUS $policyHolder,
         public DateTimeImmutable $startDate,
