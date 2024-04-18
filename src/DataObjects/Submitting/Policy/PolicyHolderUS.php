@@ -6,13 +6,14 @@ namespace Covertier\Definitions\DataObjects\Submitting\Policy;
 
 use Covertier\Definitions\Enums\PersonalIdType;
 use Covertier\Definitions\Enums\ResidenceTypeInMexico;
+use DateTimeImmutable;
 
 class PolicyHolderUS
 {
     public function __construct(
         public string $name,
         public string $lastName,
-        public string $birthdate,
+        public DateTimeImmutable $birthdate,
         public string $identificationNumber,
         public PersonalIdType $personalIdType,
         public string $mobileNumber,
