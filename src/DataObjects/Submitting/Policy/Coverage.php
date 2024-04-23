@@ -8,7 +8,7 @@ class Coverage
 {
     public function __construct(
         public int $id,
-        public float $insureSum,
+        public float $insuredSum,
         public int $sumType,
         public float $deductible,
         public float $premium,
