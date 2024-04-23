@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Covertier\Definitions\DataObjects\Fetching\Policy;
 
-readonly class PackageCoverage
+readonly class Coverage
 {
     public function __construct(
         public int $id,
