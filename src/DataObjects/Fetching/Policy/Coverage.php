@@ -13,7 +13,7 @@ readonly class Coverage
         public string $nameEn,
         public bool $isAddOn,
         public bool $isExcludable,
-        public float|null $coverageSum,
+        public float|null $insuredSum,
         public float|null $deductible,
         public float|null $premium
     ) {}
