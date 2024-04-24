@@ -7,4 +7,5 @@ namespace Covertier\Definitions\Enums;
 enum PolicyType: string
 {
     case MX_TOURIST= 'MX_TOURIST';
+    case MX_NATIONAL= 'MX_NATIONAL';
 }
