@@ -10,9 +10,6 @@ use DateTimeImmutable;
 
 class TouristPolicy
 {
-    /**
-     * @param array<int>|null $coverages
-     */
     public function __construct(
         public InsuranceCompany $insuranceCompanyId,
         public Package $package,
@@ -21,7 +18,6 @@ class TouristPolicy
         public DateTimeImmutable $startDate,
         public DateTimeImmutable $endDate,
         public bool $isMultiEntry = false,
-        public ?Territoriality $territoriality = null,
-        public ?array $coverages = null,
+        public ?Territoriality $territoriality = null
     ) {}
 }

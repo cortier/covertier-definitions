@@ -7,8 +7,12 @@ namespace Covertier\Definitions\DataObjects\Submitting\Policy;
 class Package
 {
 
+    /**
+     * @param array<int, Coverage>|null $coverages
+     */
     public function __construct(
-        public int $id
+        public int $id,
+        public ?array $coverages = null
     ) {
     }
 }
