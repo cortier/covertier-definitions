@@ -11,10 +11,10 @@ class Coverage
         public string $name,
         public string $nameEn,
         public string $shortName,
-        public float $insuredSum,
         public int $sumType,
         public bool $isAddOn,
         public bool $isExcludable,
+        public ?float $insuredSum = null,
         public ?float $deductible = null
     ) {
     }
