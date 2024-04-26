@@ -13,10 +13,9 @@ class Coverage
         public string $shortName,
         public float $insuredSum,
         public int $sumType,
-        public float $deductible,
-        public float $premium,
         public bool $isAddOn,
         public bool $isExcludable,
+        public ?float $deductible = null
     ) {
     }
 }
