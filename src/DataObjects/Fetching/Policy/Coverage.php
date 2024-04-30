@@ -38,7 +38,7 @@ readonly class Coverage
         return $this->softForced;
     }
 
-    public function getIsRectricted(): bool|null
+    public function getIsRestricted(): bool|null
     {
         return $this->isRestricted;
     }
