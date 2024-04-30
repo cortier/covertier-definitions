@@ -27,15 +27,15 @@ readonly class Coverage
         public ?array $insuredSumOptions,
         public ?array $sumTypeOptions,
         public ?array $deductibleOptions,
-        private ?bool $softForce,
+        private ?bool $softForced,
         private ?bool $isRestricted,
     )
     {
     }
 
-    public function getSoftForce(): bool|null
+    public function getSoftForced(): bool|null
     {
-        return $this->softForce;
+        return $this->softForced;
     }
 
     public function getIsRectricted(): bool|null
