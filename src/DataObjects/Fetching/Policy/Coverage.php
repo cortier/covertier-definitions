@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Covertier\Definitions\DataObjects\Fetching\Policy;
 
+use Covertier\Definitions\Enums\Currency;
+
 readonly class Coverage
 {
 
@@ -27,6 +29,8 @@ readonly class Coverage
         public ?array $insuredSumOptions,
         public ?array $sumTypeOptions,
         public ?array $deductibleOptions,
+        public ?Currency $currency,
+        public ?float $exchangeRate,
         private ?bool $softForced,
         private ?bool $isRestricted,
     )
