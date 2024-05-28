@@ -11,7 +11,7 @@ use DateTimeImmutable;
 class PolicyHolderUS
 {
     public function __construct(
-        public string $name,
+        public string $firstName,
         public string $lastName,
         public DateTimeImmutable $birthdate,
         public string $identificationNumber,
