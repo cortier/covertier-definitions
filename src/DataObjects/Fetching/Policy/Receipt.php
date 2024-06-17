@@ -10,7 +10,7 @@ readonly class Receipt
         public string $startDate,
         public string $endDate,
         public float $netPremium,
-        public string $managementFee,
+        public float $managementFee,
         public float $surcharge,
         public float $tax,
         public float $totalPremium,
