@@ -14,6 +14,7 @@ readonly class Coverage
      * @param array<int, int>|null $insuredSumOptions
      * @param array<int, int>|null $sumTypeOptions
      * @param array<int, float>|null $deductibleOptions
+     * @param array<int, int> $allowedSumTypes,
      */
     public function __construct(
         public int    $id,
@@ -22,6 +23,7 @@ readonly class Coverage
         public string $nameEn,
         public bool   $isAddOn,
         public bool   $isExcludable,
+        public array  $allowedSumTypes,
         public ?float $premium,
         public ?int   $sumType,
         public ?float $insuredSum,
