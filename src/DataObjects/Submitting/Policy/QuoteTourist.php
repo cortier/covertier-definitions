@@ -16,11 +16,11 @@ class QuoteTourist
     public function __construct(
         public InsuranceCompany $insuranceCompanyId,
         public Package $package,
-        public ?VehicleUS $vehicle,
         public PolicyHolderUS $policyHolder,
         public DateTimeImmutable $startDate,
         public DateTimeImmutable $endDate,
         public bool $isMultiEntry = false,
+        public ?VehicleUS $vehicle = null,
         public ?Territoriality $territoriality = null,
         public ?array $coverages = null,
     ) {}
