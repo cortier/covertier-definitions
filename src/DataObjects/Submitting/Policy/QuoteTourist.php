@@ -16,7 +16,7 @@ class QuoteTourist
     public function __construct(
         public InsuranceCompany $insuranceCompanyId,
         public Package $package,
-        public VehicleUS $vehicle,
+        public ?VehicleUS $vehicle,
         public PolicyHolderUS $policyHolder,
         public DateTimeImmutable $startDate,
         public DateTimeImmutable $endDate,
