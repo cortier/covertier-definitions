@@ -8,7 +8,7 @@ use Covertier\Definitions\Enums\PersonalIdType;
 use Covertier\Definitions\Enums\ResidenceTypeInMexico;
 use DateTimeImmutable;
 
-class PolicyHolderUS
+class PolicyHolderCA
 {
     public function __construct(
         public string $firstName,
