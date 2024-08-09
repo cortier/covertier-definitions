@@ -14,8 +14,8 @@ class AddressMX
     public function __construct(
         public string $street,
         public string $neighborhood,
-        public int $internalNumber,
-        public int $externalNumber,
+        public string $internalNumber,
+        public string $externalNumber,
         public int $zipCode,
         public string $city,
         public StateMX $state
