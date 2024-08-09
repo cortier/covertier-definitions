@@ -17,9 +17,9 @@ class PolicyHolderUS
         public string $identificationNumber,
         public PersonalIdType $personalIdType,
         public string $mobileNumber,
-        public ?ResidenceTypeInMexico $residencyTypeInMexico,
-        public ?AddressUS $addressUS,
-        public ?AddressMX $addressMX,
+        public ?ResidenceTypeInMexico $residencyTypeInMexico = null,
+        public ?AddressUS $addressUS = null,
+        public ?AddressMX $addressMX = null,
         public ?string $foreignAddress = null
     ) {}
 }
