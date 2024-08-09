@@ -13,6 +13,7 @@ class AddressMX
 
     public function __construct(
         public string $street,
+        public string $neighborhood,
         public string $internalNumber,
         public int $externalNumber,
         public int $zipCode,
