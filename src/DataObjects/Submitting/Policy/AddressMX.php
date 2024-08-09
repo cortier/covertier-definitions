@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Covertier\Definitions\DataObjects\Submitting\Policy;
 
 use Covertier\Definitions\Enums\Country;
-use Covertier\Definitions\Enums\StateUS;
+use Covertier\Definitions\Enums\StateMX;
 
 class AddressMX
 {
@@ -18,7 +18,7 @@ class AddressMX
         public int $externalNumber,
         public int $zipCode,
         public string $city,
-        public StateUS $state
+        public StateMX $state
     ) {
     }
 }
