@@ -18,8 +18,8 @@ class PolicyHolderUS
         public ?PersonalIdType $personalIdType = null,
         public ?string $identificationNumber = null,
         public ?ResidenceTypeInMexico $residencyTypeInMexico = null,
-        public ?AddressUS $addressUS = null,
-        public ?AddressMX $addressMX = null,
+        public ?AddressUS $addressUs = null,
+        public ?AddressMX $addressMx = null,
         public ?string $foreignAddress = null
     ) {}
 }
