@@ -9,7 +9,6 @@ use Covertier\Definitions\Enums\Currency;
 readonly class Coverage
 {
 
-
     /**
      * @param array<int, int>|null $insuredSumOptions
      * @param array<int, int>|null $sumTypeOptions
@@ -32,20 +31,31 @@ readonly class Coverage
         public ?array $sumTypeOptions,
         public ?array $deductibleOptions,
         public ?Currency $currency,
-        public ?float $exchangeRate,
-        private ?bool $softForced,
-        private ?bool $isRestricted,
+        private ?float $_insuredSumDefaultOption,
+        private ?float $_deductibleDefaultOption,
+        private ?bool $_softForced,
+        private ?bool $_isRestricted,
     )
     {
     }
 
     public function getSoftForced(): bool|null
     {
-        return $this->softForced;
+        return $this->_softForced;
     }
 
     public function getIsRestricted(): bool|null
     {
-        return $this->isRestricted;
+        return $this->_isRestricted;
+    }
+
+    public function getInsuredSumDefaultOption(): float|null
+    {
+        return $this->_insuredSumDefaultOption;
+    }
+
+    public function getDeductibleDefaultOption(): float|null
+    {
+        return $this->_deductibleDefaultOption;
     }
 }
