@@ -11,6 +11,7 @@ class VehicleUS
         public ?string $vin = null,
         public ?float $value = null,
         public ?int $year = null,
-        public ?string $description = null
+        public ?string $description = null,
+        public bool $isMotorcycle = false
     ) {}
 }
