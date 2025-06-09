@@ -19,8 +19,8 @@ class QuoteTourist
         public PolicyHolderUS $policyHolder,
         public DateTimeImmutable $startDate,
         public DateTimeImmutable $endDate,
+        public VehicleUS $vehicle,
         public bool $isMultiEntry = false,
-        public ?VehicleUS $vehicle = null,
         public ?Territoriality $territoriality = null,
         public ?array $coverages = null,
     ) {}
