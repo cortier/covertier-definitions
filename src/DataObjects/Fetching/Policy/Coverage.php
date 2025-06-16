@@ -35,7 +35,7 @@ readonly class Coverage
         private ?float $_deductibleDefaultOption,
         private ?bool $_softForced,
         private ?bool $_isRestricted,
-        public ?string $specialInstructions,
+        public ?string $specialInstructions = null,
     )
     {
     }
